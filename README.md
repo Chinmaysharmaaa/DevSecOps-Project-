@@ -8,24 +8,6 @@ With the help of DevOps strategies security can also be enhanced. For example, e
 
 Attackers are intelligent and creative, equipped with new technologies and purpose. Under the guidance of the forward-looking DevSecOps Maturity Model, appropriate principles and measures are at hand implemented which counteract the attacks.
 
-Amazon EC2 Instance:
-
-1.In the EC2 sidenav select Instances and click Launch Instance
-
-2.In Step 1: Choose an Amazon Machine Image (AMI) choose an Amazon Linux AMI or Amazon Linux 2 AMI
-
-3.In Step 3: Configure Instance Details unfold Advanced Details and copy the script below into User Data
-
-4.In Step 6: Configure Security Group add a Rule that opens port 80 for HTTP
-
-5.Launch your instance
-
-6.Browse to your instance's public DNS
-
-#!/bin/bash
-service docker start
-docker run -d -p 80:8080 wurstbrot/dsomm:latest
-
 Information/Data Development:
 
 To test changes to the yaml-files, please run:
