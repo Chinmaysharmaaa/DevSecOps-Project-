@@ -8,18 +8,6 @@ With the help of DevOps strategies security can also be enhanced. For example, e
 
 Attackers are intelligent and creative, equipped with new technologies and purpose. Under the guidance of the forward-looking DevSecOps Maturity Model, appropriate principles and measures are at hand implemented which counteract the attacks.
 
-Container:
-
-1.Install Docker
-
-2.Run docker pull wurstbrot/dsomm:latest && docker run --rm -p 8080:8080 wurstbrot/dsomm:latest
-
-3.Browse to http://localhost:8080 (on macOS and Windows browse to http://192.168.99.100:8080 if you are using docker-machine instead of the native docker installation)
-
-For customized DSOMM, take a look at https://github.com/wurstbrot/DevSecOps-MaturityModel-custom. In case you would like to have perform an assessment for multiple teams, iterate from port 8080 to 8XXX, depending of the size of your team.
-
-You can download your current state from the circular headmap and mount it again via docker run -p 8080:8080 -v /tmp/generated.yaml:/usr/share/nginx/html/assets/YAML/generated/generated.yaml wurstbrot/dsomm:latest.
-
 Amazon EC2 Instance:
 
 1.In the EC2 sidenav select Instances and click Launch Instance
